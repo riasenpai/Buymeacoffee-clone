@@ -33,6 +33,9 @@ code {
 .small-text{
   font-size: 1.0rem !important;
   font-weight: 400;
+  line-height: 1.35;
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif !important;
+
 }
 .medium-text{
   font-size: 1.5rem !important;
