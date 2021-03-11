@@ -1,0 +1,33 @@
+.generalHeading{
+    font-size: 2.9rem;
+    line-height: 1.35;
+    font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif !important;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+  .introText{
+    font-size: 2rem;
+    line-height: 1.35;
+    font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif !important;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 3rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    text-align: center;
+  }
+  .julieCon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    width: 50%;
+  }
+  body {
+    font: 20px "Helvetica";
+  }
+  
+  
