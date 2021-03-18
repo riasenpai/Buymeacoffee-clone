@@ -1,9 +1,18 @@
 import React from "react";
 import styles from "./Profile.module.css";
 import julie from '../../assests/julie.webp';
+import one from '../../assests/one.png';
+import two from '../../assests/2.png';
+import three from '../../assests/3.png';
+
 class Profile extends React.Component {
   constructor(props) {
     super(props);
+  }
+  calcVal(value){
+    var val= value;
+    alert(val);
+
   }
   render() {
     return (
@@ -20,6 +29,18 @@ class Profile extends React.Component {
         </div>
         <img className={styles.julieCon} src={julie} />
         
+        <div className={styles.con1} >
+          <div className={styles.imgAlign}>
+            <div className={styles.coffee}>☕</div>
+            <div className={styles.coffee}>X</div>
+          <img className={styles.imgSize} onClick={() => this.calcVal(1)}  src={one}></img>
+          <img className={styles.imgSize} onClick={() => this.calcVal(2)}  src={two}></img>
+          <img className={styles.imgSize} onClick={() => this.calcVal(3)}  src={three}></img>
+          </div>
+        <input className={styles.textIn}></input>
+        <button className={styles.button}><span>Support  </span></button>
+        
+        </div>
       </div>
     );
   }

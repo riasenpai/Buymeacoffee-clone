@@ -1,5 +1,5 @@
 .generalHeading{
-    font-size: 2.9rem;
+    font-size: 2.6rem;
     line-height: 1.35;
     font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif !important;
     color: black;
@@ -8,7 +8,7 @@
     margin-top: 2rem;
   }
   .introText{
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.35;
     font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif !important;
     color: black;
@@ -26,8 +26,81 @@
     margin-top: 3rem;
     width: 50%;
   }
-  body {
-    font: 20px "Helvetica";
+  .button {border-radius: 20px;
+    background-color: #f54c8a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    width: 15%;
+    margin-top: 2rem;
+    
+  }
+  button:focus {outline:0;}
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
   }
   
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
   
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;  
+    height: 10rem;
+    border: none;
+    
+}
+.con1{
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 8rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.textIn{
+  width: 50%;
+  height: 40% !important;
+}
+
+.imgAlign{
+  display: flex;
+  flex-direction: row;
+  height:50px;
+  padding: 0.55rem;
+}
+.imgSize{
+  margin-right: 0.5rem;
+}
+.coffee{
+  font-size: 40px;
+  font-weight: 200;
+}

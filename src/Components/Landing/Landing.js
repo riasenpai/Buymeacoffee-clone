@@ -40,7 +40,7 @@ class Landing extends React.Component {
         <div className={styles.generalHeading}>
           Support your favourite streamer!
         </div>
-        <Link to="/profile">
+        <Link style={{textDecoration: "none"}} to="/profile">
         <div className={styles.container}>
           <div className={styles.card}>
             <div className={styles.imgBox}>
