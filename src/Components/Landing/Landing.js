@@ -8,6 +8,7 @@ import valk from "../../assests/rae.jpg";
 import toast from "../../assests/toast.jpg";
 import jade from "../../assests/quat.jpg";
 import { Link } from "react-router-dom";
+import footer from '../../assests/FOOTER.webp'
 
 class Landing extends React.Component {
   constructor(props) {
@@ -27,11 +28,11 @@ class Landing extends React.Component {
             className={`${styles.intro1} black-text base-text `}
             style={{ fontWeight: "480" }}
           >
-            Buy Me a Coffee is a simple, meaningful way to fund your creative
+            Buy Me a Coffee is a simple, meaningful way to fund creative
             work. Without stitching together a bunch of apps like Patreon,
-            Mailchimp, and a donate button — you can accept support,
-            memberships, and build a direct relationship with your fans. Your
-            fans are going to love it.
+            Mailchimp, and a donate button — you can give support, accept
+            memberships, and build a direct relationship with your creator. You
+            are going to love it.
           </div>
           <img className={styles.supportCon} src={support} />
         </div>
@@ -99,9 +100,7 @@ class Landing extends React.Component {
           </div>
         </div>
         </Link>
-        <div className={styles.generalHeading}>
-            
-        </div>
+        
       </div>
     );
   }

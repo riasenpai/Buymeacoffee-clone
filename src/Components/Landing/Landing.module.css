@@ -4,7 +4,7 @@
     margin-top: 0rem;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, white 0%,white 50%,#000000 50%,#FAF7F1 50%,#FAF7F1 100%);
+    background: linear-gradient(to bottom, white 0%,white 50%,#FAF7F1 50%,#FAF7F1 100%);
     
 }
 .topBar{

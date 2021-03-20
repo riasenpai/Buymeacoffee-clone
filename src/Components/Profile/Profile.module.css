@@ -27,11 +27,11 @@
     width: 50%;
   }
   .button {border-radius: 20px;
-    background-color: #f54c8a;
+    background-color:#F3718D;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     padding: 10px 20px;
     width: 200px;
     transition: all 0.5s;
@@ -81,8 +81,8 @@
   display: flex;
   flex-direction: column;
   
-  margin-top: 8rem;
-  text-align: center;
+  margin-top: 3rem;
+  /* text-align: center; */
   align-items: center;
   justify-content: space-evenly;
 }
@@ -96,11 +96,15 @@
   flex-direction: row;
   height:50px;
   padding: 0.55rem;
+  justify-content: center;
 }
 .imgSize{
   margin-right: 0.5rem;
+  cursor: pointer;
 }
 .coffee{
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 100;
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif !important;
+  padding-right: 0.5rem;
 }
