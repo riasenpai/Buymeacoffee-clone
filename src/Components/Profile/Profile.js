@@ -21,7 +21,7 @@ class Profile extends React.Component {
       coffeeCount: 1,
       total: this.coffeeCost * 1,
       rzpayOptions: {
-          key: process.env["API_KEY"], // Enter the Key ID generated from the Dashboard
+          key: process.env["REACT_APP_API_KEY"], // Enter the Key ID generated from the Dashboard
           amount: this.coffeeCost * 1, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
           currency: "USD",
           name: "Buymeacoffee",
