@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 export const getUrl = (endpoint) =>{
-  return `http://${process.env["BACKEND_IP"]}:5000/`+endpoint;
+  return `${process.env["BACKEND_URL"]}:5000/`+endpoint;
 }
 
 export const postData = (url,data)=>{
